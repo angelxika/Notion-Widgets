@@ -1,0 +1,37 @@
+blockquote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+}
+blockquote p:first-child:before, blockquote p:first-child:after {
+display: block;
+font-size: 80px;
+position: absolute;
+color: #7a7a7a;
+}
+blockquote p:first-child:before {
+content: "\201C";
+left: -7px;
+top: -25px;
+}
+blockquote p:first-child:after {
+content: "\201D";
+right: 10px;
+bottom: -10px;
+}
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+text-align: right;
+}
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
